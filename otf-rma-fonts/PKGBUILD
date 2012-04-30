@@ -10,7 +10,7 @@ url="http://github.com/rarmknecht/selected_fonts"
 depends=('fontconfig' 'xorg-fonts-encodings' 'xorg-font-utils')
 makedepends=('unzip')
 install=otf-rma-fonts.install
-source=("http://github.com/rarmknecht/selected_fonts/blob/master/otf-rma-fonts-$pkgver.tar.gz")
+source=("http://github.com/rarmknecht/selected_fonts/raw/master/otf-rma-fonts-$pkgver.tar.gz")
 
 build() {
   mkdir -p $pkgdir/usr/share/fonts/OTF
